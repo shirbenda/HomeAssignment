@@ -1,0 +1,15 @@
+
+.beersList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  img{
+    width: calc(33vw - 3rem);
+    height: 40vh;
+    object-fit: contain;
+    object-position: left;
+  }
+}
+.pagination{
+  margin: 1rem 0;
+}

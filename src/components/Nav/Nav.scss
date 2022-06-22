@@ -1,0 +1,19 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+  h1{
+    color: var(--blue);
+  }
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--blue);
+  }
+  ul{
+    display: flex;
+    column-gap: 1em;
+  }
+}
